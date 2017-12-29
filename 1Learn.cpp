@@ -25,18 +25,18 @@ int main()
 	  cout<<"*******************************************************************************"<<endl;
 	  cout<<"*                                                                             *"<<endl;
 	  cout<<"*                            CUSTOMER DATA                                    *"<<endl;
-      cout<<"*                                                                             *"<<endl;
+          cout<<"*                                                                             *"<<endl;
 	  cout<<"*******************************************************************************"<<endl;
   
 do  {
       cout <<"1. ADD CUSTOMER DATA\n";
       cout << "2. DELETE CUSTOMER DATA\n";
-      cout << "3. DISPLAY PCUSTOMER DATA\n";
+      cout << "3. DISPLAY CUSTOMER DATA\n";
       cout << "4. SEARCH CUSTOMER DATA\n";
       cout << "5. SORT CUSTOMER DATA\n";
       cout<< "\nWhich do you choose: ";
       cin >> choice;
-    switch(choice)        
+switch(choice)        
 {
         case 1:
                 temp=new node;
